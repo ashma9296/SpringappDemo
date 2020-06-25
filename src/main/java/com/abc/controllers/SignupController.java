@@ -23,9 +23,8 @@ public class SignupController {
 
 	@PostMapping("signup")
 	public String signup(SignupDto signup) {
-		
-		System.out.println(signup.toString()));
-		return  null;
+		System.out.println(signup.toString());
+		return  "welcome";
 
 	}
 

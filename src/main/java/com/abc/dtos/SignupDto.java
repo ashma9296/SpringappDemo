@@ -66,4 +66,10 @@ public class SignupDto {
 		this.password = password;
 	}
 
+	@Override
+	public String toString() {
+		return "SignupDto [firstname=" + firstname + ", lastname=" + lastname + ", phone=" + phone + ", email=" + email
+				+ ", address=" + address + ", username=" + username + ", password=" + password + "]";
+	}
+
 }
